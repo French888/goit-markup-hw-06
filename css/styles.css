@@ -39,13 +39,11 @@ html{
 
 body {
   margin: 0;
-  
   color:var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.88;
-  
   }
 
   a{
@@ -85,6 +83,7 @@ p{
   width: 1px !important;
   overflow: hidden;
 }
+
 .link{
   display: inline-block;
   align-items: center;
@@ -97,7 +96,26 @@ p{
 .link:focus{
 color:var(--accent-color);
 }
+.list{
+list-style: none;
+color:inherit;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+  
+  }
+  
+.container{
+width: 1200px;
+padding: 0 15px;
+margin:0 auto; 
+}
 
+.section{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+  
 
 .button-portfolio:hover,
 .button-portfolio:focus{
@@ -110,28 +128,6 @@ color:var(--page-title-color);
 background-color: var(--accent-color-hover);
 color:var(--page-title-color);
   }
-
-.list{
-list-style: none;
-color:inherit;
-margin-top: 0px;
-margin-bottom: 0px;
-padding-left: 0px;
-
-}
-
-.container{
-  width: 1200px;
-  padding: 0 15px;
-  margin:0 auto; 
-  /*background: yellow;*/
-}
-
-.section{
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 
 
 .social-icons .icon{
@@ -244,7 +240,6 @@ background-color:var(--accent-color-hover);
   fill:currentColor;
   stroke: var(--main-text-color);
 }
-
 .contact-link:hover .icon,
 .contact-link:focus .icon{
   stroke: currentColor;
@@ -301,9 +296,6 @@ transition: opasity 250ms var(--timing-function);
   background-position: center;
   border-style: cover;
 }
-
-
-
 
 /* Skill section */
 
@@ -694,7 +686,7 @@ background-color: var(--accent-color);
 /* Footer form */
 
 .subscribe {
-  margin: 0;
+  margin-left: 93px;
 }
 
 .field .subscribe-title {
